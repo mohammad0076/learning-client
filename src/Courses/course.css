@@ -1,0 +1,15 @@
+.category {
+    margin-left: 100px;
+}
+
+.ark {
+    text-decoration: none;
+
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
