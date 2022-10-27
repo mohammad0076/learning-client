@@ -11,6 +11,7 @@ import Image from 'react-bootstrap/Image'
 import { BsFillChatSquareFill } from "react-icons/bs";
 import ReactTooltip from "react-tooltip";
 import { FactorId } from 'firebase/auth';
+import { MoonIcon } from '@heroicons/react/24/solid'
 
 
 
@@ -42,7 +43,9 @@ const Header = () => {
                             <Link className='as' to='/home'>Home</Link>
                             <Link className='as' to='/courses'>Courses</Link>
                             <Link className='as' to='/faq'>FAQ</Link>
-                            <Link className='as' to='/theme' >ChangeTheme</Link>
+                            <Link className='as' to='/theme' >ChangeMode</Link>
+
+                            <Link className='as' to='/blog' >Blogs</Link>
 
 
 

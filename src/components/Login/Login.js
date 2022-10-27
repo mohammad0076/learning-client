@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useContext } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import { useNavigate, useLocation } from 'react-router-dom'
+import { useNavigate, useLocation, Link } from 'react-router-dom'
 import { AuthContext } from '../../context/Authprovider';
 import './login.css';
 
@@ -65,6 +65,7 @@ const Login = () => {
                 <Form.Text className='text-danger'>
                     {error}
                 </Form.Text>
+                <Link className='as' to='/reg'>Dont have any account? Register</Link>
 
                 <Button variant="primary" type="submit">
                     Login

@@ -52,6 +52,10 @@ export const routes = createBrowserRouter([
             path: '/theme',
             element: <Theme></Theme>
 
+        }, {
+            path: '/blog',
+            element: <Blogs></Blogs>
+
         },
         {
             path: '/login',

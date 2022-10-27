@@ -28,7 +28,7 @@ const Course = () => {
                     </div>
 
                 </Col>
-                <Col xs={6} >
+                <Col xs={6}  >
 
 
                     <div className='row'>
