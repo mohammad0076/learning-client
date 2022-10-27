@@ -12,7 +12,7 @@ const Blogs = () => {
             <p>renders child components ( children ) if the user is logged in</p>
             <h1>what is node js?how does it work?</h1>
             <p>It is used for server-side programming.Node. js runs on chrome v8 engine which converts javascript code into machine code</p>
-            <p></p>
+
         </div>
     );
 };
