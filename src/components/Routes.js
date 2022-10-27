@@ -69,6 +69,9 @@ export const routes = createBrowserRouter([
         }
 
         ]
+    },
+    {
+        path: '*', element: <div>This route not found go to hell</div>
     }
 
 ])
