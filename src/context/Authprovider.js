@@ -9,6 +9,8 @@ import { useState } from 'react';
 
 export const AuthContext = createContext();
 
+
+
 const Authprovider = ({ children }) => {
     const [user, setuser] = useState(null);
     const [loading, setloadin] = useState(true);

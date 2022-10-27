@@ -2,6 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom'
+import CourseDtails from '../components/Coursesdtail/CourseDtails';
 import './coursecart.css'
 
 const CourseCart = ({ category }) => {
@@ -17,9 +18,10 @@ const CourseCart = ({ category }) => {
                         <p>Course-Teacher:-{teacher}</p>
                         <p>Total Videos:-{videos}</p>
 
-                        <p> Descriprion:-{description.slice(0, 80)}</p>
+                        <p> Descriprion:-{description.slice(0, 80) + '...'}</p>
                     </Card.Text>
                     <Button ><Link variant="primary" className='ars' to={`/courses/${category.id}`}>Course details</Link></Button>
+
 
                 </Card.Body>
             </Card>
